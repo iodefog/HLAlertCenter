@@ -13,10 +13,14 @@
 		C72FD9231EA7436E00F87329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9211EA7436E00F87329 /* Main.storyboard */; };
 		C72FD9251EA7436E00F87329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9241EA7436E00F87329 /* Assets.xcassets */; };
 		C72FD9281EA7436E00F87329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9261EA7436E00F87329 /* LaunchScreen.storyboard */; };
+		C72FD9371EA7450800F87329 /* SVLoadingView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9361EA7450800F87329 /* SVLoadingView@2x.png */; };
+		C72FD9401EA7633300F87329 /* HLAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD93D1EA7633300F87329 /* HLAlertCenter.m */; };
+		C72FD9411EA7633300F87329 /* UIView+HLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD93F1EA7633300F87329 /* UIView+HLCategory.m */; };
+		C72FD9441EA7642A00F87329 /* NSObject+HLAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD9431EA7642A00F87329 /* NSObject+HLAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C72FD9151EA7436E00F87329 /* TKAlertCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKAlertCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72FD9151EA7436E00F87329 /* HLAlertCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLAlertCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72FD9191EA7436E00F87329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C72FD91B1EA7436E00F87329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C72FD91C1EA7436E00F87329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,13 @@
 		C72FD9241EA7436E00F87329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C72FD9271EA7436E00F87329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C72FD9291EA7436E00F87329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72FD9361EA7450800F87329 /* SVLoadingView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVLoadingView@2x.png"; sourceTree = "<group>"; };
+		C72FD93C1EA7633300F87329 /* HLAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertCenter.h; sourceTree = "<group>"; };
+		C72FD93D1EA7633300F87329 /* HLAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertCenter.m; sourceTree = "<group>"; };
+		C72FD93E1EA7633300F87329 /* UIView+HLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLCategory.h"; sourceTree = "<group>"; };
+		C72FD93F1EA7633300F87329 /* UIView+HLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLCategory.m"; sourceTree = "<group>"; };
+		C72FD9421EA7642A00F87329 /* NSObject+HLAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLAlert.h"; sourceTree = "<group>"; };
+		C72FD9431EA7642A00F87329 /* NSObject+HLAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLAlert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +61,7 @@
 		C72FD9161EA7436E00F87329 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C72FD9151EA7436E00F87329 /* TKAlertCenterDemo.app */,
+				C72FD9151EA7436E00F87329 /* HLAlertCenterDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +73,8 @@
 				C72FD91C1EA7436E00F87329 /* AppDelegate.m */,
 				C72FD91E1EA7436E00F87329 /* ViewController.h */,
 				C72FD91F1EA7436E00F87329 /* ViewController.m */,
+				C72FD93B1EA7633300F87329 /* HLAlertCenter */,
+				C72FD9361EA7450800F87329 /* SVLoadingView@2x.png */,
 				C72FD9211EA7436E00F87329 /* Main.storyboard */,
 				C72FD9241EA7436E00F87329 /* Assets.xcassets */,
 				C72FD9261EA7436E00F87329 /* LaunchScreen.storyboard */,
@@ -79,12 +92,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C72FD93B1EA7633300F87329 /* HLAlertCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C72FD93C1EA7633300F87329 /* HLAlertCenter.h */,
+				C72FD93D1EA7633300F87329 /* HLAlertCenter.m */,
+				C72FD93E1EA7633300F87329 /* UIView+HLCategory.h */,
+				C72FD93F1EA7633300F87329 /* UIView+HLCategory.m */,
+				C72FD9421EA7642A00F87329 /* NSObject+HLAlert.h */,
+				C72FD9431EA7642A00F87329 /* NSObject+HLAlert.m */,
+			);
+			name = HLAlertCenter;
+			path = TKAlertCenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C72FD9141EA7436E00F87329 /* TKAlertCenterDemo */ = {
+		C72FD9141EA7436E00F87329 /* HLAlertCenterDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C72FD92C1EA7436E00F87329 /* Build configuration list for PBXNativeTarget "TKAlertCenterDemo" */;
+			buildConfigurationList = C72FD92C1EA7436E00F87329 /* Build configuration list for PBXNativeTarget "HLAlertCenterDemo" */;
 			buildPhases = (
 				C72FD9111EA7436E00F87329 /* Sources */,
 				C72FD9121EA7436E00F87329 /* Frameworks */,
@@ -94,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = TKAlertCenterDemo;
+			name = HLAlertCenterDemo;
 			productName = TKAlertCenterDemo;
-			productReference = C72FD9151EA7436E00F87329 /* TKAlertCenterDemo.app */;
+			productReference = C72FD9151EA7436E00F87329 /* HLAlertCenterDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,11 +137,12 @@
 				TargetAttributes = {
 					C72FD9141EA7436E00F87329 = {
 						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 4AW78593E8;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = C72FD9101EA7436E00F87329 /* Build configuration list for PBXProject "TKAlertCenterDemo" */;
+			buildConfigurationList = C72FD9101EA7436E00F87329 /* Build configuration list for PBXProject "HLAlertCenterDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C72FD9141EA7436E00F87329 /* TKAlertCenterDemo */,
+				C72FD9141EA7436E00F87329 /* HLAlertCenterDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +168,7 @@
 				C72FD9281EA7436E00F87329 /* LaunchScreen.storyboard in Resources */,
 				C72FD9251EA7436E00F87329 /* Assets.xcassets in Resources */,
 				C72FD9231EA7436E00F87329 /* Main.storyboard in Resources */,
+				C72FD9371EA7450800F87329 /* SVLoadingView@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +181,9 @@
 			files = (
 				C72FD9201EA7436E00F87329 /* ViewController.m in Sources */,
 				C72FD91D1EA7436E00F87329 /* AppDelegate.m in Sources */,
+				C72FD9401EA7633300F87329 /* HLAlertCenter.m in Sources */,
+				C72FD9441EA7642A00F87329 /* NSObject+HLAlert.m in Sources */,
+				C72FD9411EA7633300F87329 /* UIView+HLCategory.m in Sources */,
 				C72FD91A1EA7436E00F87329 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -274,10 +306,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AW78593E8;
 				INFOPLIST_FILE = TKAlertCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.TKAlertCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fa40e5c-0f31-4a04-b61c-ea5b1f7b16bb";
+				PROVISIONING_PROFILE_SPECIFIER = develop_universal_profile;
 			};
 			name = Debug;
 		};
@@ -285,17 +320,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TKAlertCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.TKAlertCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C72FD9101EA7436E00F87329 /* Build configuration list for PBXProject "TKAlertCenterDemo" */ = {
+		C72FD9101EA7436E00F87329 /* Build configuration list for PBXProject "HLAlertCenterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C72FD92A1EA7436E00F87329 /* Debug */,
@@ -304,13 +341,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C72FD92C1EA7436E00F87329 /* Build configuration list for PBXNativeTarget "TKAlertCenterDemo" */ = {
+		C72FD92C1EA7436E00F87329 /* Build configuration list for PBXNativeTarget "HLAlertCenterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C72FD92D1EA7436E00F87329 /* Debug */,
 				C72FD92E1EA7436E00F87329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

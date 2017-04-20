@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  TKAlertCenterDemo
+//  HLAlertCenterDemo
 //
 //  Created by LHL on 2017/4/19.
 //  Copyright © 2017年 lihongli. All rights reserved.

@@ -7,36 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C72FD91A1EA7436E00F87329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD9191EA7436E00F87329 /* main.m */; };
-		C72FD91D1EA7436E00F87329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD91C1EA7436E00F87329 /* AppDelegate.m */; };
-		C72FD9201EA7436E00F87329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD91F1EA7436E00F87329 /* ViewController.m */; };
-		C72FD9231EA7436E00F87329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9211EA7436E00F87329 /* Main.storyboard */; };
-		C72FD9251EA7436E00F87329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9241EA7436E00F87329 /* Assets.xcassets */; };
-		C72FD9281EA7436E00F87329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9261EA7436E00F87329 /* LaunchScreen.storyboard */; };
-		C72FD9371EA7450800F87329 /* SVLoadingView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C72FD9361EA7450800F87329 /* SVLoadingView@2x.png */; };
-		C72FD9401EA7633300F87329 /* HLAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD93D1EA7633300F87329 /* HLAlertCenter.m */; };
-		C72FD9411EA7633300F87329 /* UIView+HLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD93F1EA7633300F87329 /* UIView+HLCategory.m */; };
-		C72FD9441EA7642A00F87329 /* NSObject+HLAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FD9431EA7642A00F87329 /* NSObject+HLAlert.m */; };
+		C784E9A41EA8583D00927853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C784E9991EA8583D00927853 /* AppDelegate.m */; };
+		C784E9A51EA8583D00927853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C784E99A1EA8583D00927853 /* Assets.xcassets */; };
+		C784E9A61EA8583D00927853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C784E99B1EA8583D00927853 /* LaunchScreen.storyboard */; };
+		C784E9A71EA8583D00927853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C784E99D1EA8583D00927853 /* Main.storyboard */; };
+		C784E9A81EA8583D00927853 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C784E99F1EA8583D00927853 /* Info.plist */; };
+		C784E9A91EA8583D00927853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C784E9A01EA8583D00927853 /* main.m */; };
+		C784E9AA1EA8583D00927853 /* SVLoadingView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C784E9A11EA8583D00927853 /* SVLoadingView@2x.png */; };
+		C784E9AB1EA8583D00927853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C784E9A31EA8583D00927853 /* ViewController.m */; };
+		C784E9B31EA8585C00927853 /* HLAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C784E9AE1EA8585C00927853 /* HLAlertCenter.m */; };
+		C784E9B41EA8585C00927853 /* NSObject+HLAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C784E9B01EA8585C00927853 /* NSObject+HLAlertCenter.m */; };
+		C784E9B51EA8585C00927853 /* UIView+HLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C784E9B21EA8585C00927853 /* UIView+HLCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C72FD9151EA7436E00F87329 /* HLAlertCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLAlertCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C72FD9191EA7436E00F87329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C72FD91B1EA7436E00F87329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C72FD91C1EA7436E00F87329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C72FD91E1EA7436E00F87329 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C72FD91F1EA7436E00F87329 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C72FD9221EA7436E00F87329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C72FD9241EA7436E00F87329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C72FD9271EA7436E00F87329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C72FD9291EA7436E00F87329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C72FD9361EA7450800F87329 /* SVLoadingView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVLoadingView@2x.png"; sourceTree = "<group>"; };
-		C72FD93C1EA7633300F87329 /* HLAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertCenter.h; sourceTree = "<group>"; };
-		C72FD93D1EA7633300F87329 /* HLAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertCenter.m; sourceTree = "<group>"; };
-		C72FD93E1EA7633300F87329 /* UIView+HLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLCategory.h"; sourceTree = "<group>"; };
-		C72FD93F1EA7633300F87329 /* UIView+HLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLCategory.m"; sourceTree = "<group>"; };
-		C72FD9421EA7642A00F87329 /* NSObject+HLAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLAlert.h"; sourceTree = "<group>"; };
-		C72FD9431EA7642A00F87329 /* NSObject+HLAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLAlert.m"; sourceTree = "<group>"; };
+		C784E9981EA8583D00927853 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C784E9991EA8583D00927853 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C784E99A1EA8583D00927853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C784E99C1EA8583D00927853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C784E99E1EA8583D00927853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C784E99F1EA8583D00927853 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C784E9A01EA8583D00927853 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C784E9A11EA8583D00927853 /* SVLoadingView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVLoadingView@2x.png"; sourceTree = "<group>"; };
+		C784E9A21EA8583D00927853 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C784E9A31EA8583D00927853 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C784E9AD1EA8585C00927853 /* HLAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertCenter.h; sourceTree = "<group>"; };
+		C784E9AE1EA8585C00927853 /* HLAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertCenter.m; sourceTree = "<group>"; };
+		C784E9AF1EA8585C00927853 /* NSObject+HLAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLAlertCenter.h"; sourceTree = "<group>"; };
+		C784E9B01EA8585C00927853 /* NSObject+HLAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLAlertCenter.m"; sourceTree = "<group>"; };
+		C784E9B11EA8585C00927853 /* UIView+HLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLCategory.h"; sourceTree = "<group>"; };
+		C784E9B21EA8585C00927853 /* UIView+HLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +54,7 @@
 		C72FD90C1EA7436E00F87329 = {
 			isa = PBXGroup;
 			children = (
-				C72FD9171EA7436E00F87329 /* TKAlertCenterDemo */,
+				C784E9971EA8583D00927853 /* HLAlertCenterDemo */,
 				C72FD9161EA7436E00F87329 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,45 +67,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C72FD9171EA7436E00F87329 /* TKAlertCenterDemo */ = {
+		C784E9971EA8583D00927853 /* HLAlertCenterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C72FD91B1EA7436E00F87329 /* AppDelegate.h */,
-				C72FD91C1EA7436E00F87329 /* AppDelegate.m */,
-				C72FD91E1EA7436E00F87329 /* ViewController.h */,
-				C72FD91F1EA7436E00F87329 /* ViewController.m */,
-				C72FD93B1EA7633300F87329 /* HLAlertCenter */,
-				C72FD9361EA7450800F87329 /* SVLoadingView@2x.png */,
-				C72FD9211EA7436E00F87329 /* Main.storyboard */,
-				C72FD9241EA7436E00F87329 /* Assets.xcassets */,
-				C72FD9261EA7436E00F87329 /* LaunchScreen.storyboard */,
-				C72FD9291EA7436E00F87329 /* Info.plist */,
-				C72FD9181EA7436E00F87329 /* Supporting Files */,
+				C784E9981EA8583D00927853 /* AppDelegate.h */,
+				C784E9991EA8583D00927853 /* AppDelegate.m */,
+				C784E9A21EA8583D00927853 /* ViewController.h */,
+				C784E9A31EA8583D00927853 /* ViewController.m */,
+				C784E99A1EA8583D00927853 /* Assets.xcassets */,
+				C784E99B1EA8583D00927853 /* LaunchScreen.storyboard */,
+				C784E99D1EA8583D00927853 /* Main.storyboard */,
+				C784E99F1EA8583D00927853 /* Info.plist */,
+				C784E9A01EA8583D00927853 /* main.m */,
+				C784E9A11EA8583D00927853 /* SVLoadingView@2x.png */,
+				C784E9AC1EA8585C00927853 /* HLAlertCenter */,
 			);
-			path = TKAlertCenterDemo;
+			path = HLAlertCenterDemo;
 			sourceTree = "<group>";
 		};
-		C72FD9181EA7436E00F87329 /* Supporting Files */ = {
+		C784E9AC1EA8585C00927853 /* HLAlertCenter */ = {
 			isa = PBXGroup;
 			children = (
-				C72FD9191EA7436E00F87329 /* main.m */,
+				C784E9AD1EA8585C00927853 /* HLAlertCenter.h */,
+				C784E9AE1EA8585C00927853 /* HLAlertCenter.m */,
+				C784E9AF1EA8585C00927853 /* NSObject+HLAlertCenter.h */,
+				C784E9B01EA8585C00927853 /* NSObject+HLAlertCenter.m */,
+				C784E9B11EA8585C00927853 /* UIView+HLCategory.h */,
+				C784E9B21EA8585C00927853 /* UIView+HLCategory.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C72FD93B1EA7633300F87329 /* HLAlertCenter */ = {
-			isa = PBXGroup;
-			children = (
-				C72FD93C1EA7633300F87329 /* HLAlertCenter.h */,
-				C72FD93D1EA7633300F87329 /* HLAlertCenter.m */,
-				C72FD93E1EA7633300F87329 /* UIView+HLCategory.h */,
-				C72FD93F1EA7633300F87329 /* UIView+HLCategory.m */,
-				C72FD9421EA7642A00F87329 /* NSObject+HLAlert.h */,
-				C72FD9431EA7642A00F87329 /* NSObject+HLAlert.m */,
-			);
-			name = HLAlertCenter;
-			path = TKAlertCenter;
-			sourceTree = "<group>";
+			path = HLAlertCenter;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -165,10 +157,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C72FD9281EA7436E00F87329 /* LaunchScreen.storyboard in Resources */,
-				C72FD9251EA7436E00F87329 /* Assets.xcassets in Resources */,
-				C72FD9231EA7436E00F87329 /* Main.storyboard in Resources */,
-				C72FD9371EA7450800F87329 /* SVLoadingView@2x.png in Resources */,
+				C784E9A81EA8583D00927853 /* Info.plist in Resources */,
+				C784E9A71EA8583D00927853 /* Main.storyboard in Resources */,
+				C784E9A51EA8583D00927853 /* Assets.xcassets in Resources */,
+				C784E9A61EA8583D00927853 /* LaunchScreen.storyboard in Resources */,
+				C784E9AA1EA8583D00927853 /* SVLoadingView@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,32 +172,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C72FD9201EA7436E00F87329 /* ViewController.m in Sources */,
-				C72FD91D1EA7436E00F87329 /* AppDelegate.m in Sources */,
-				C72FD9401EA7633300F87329 /* HLAlertCenter.m in Sources */,
-				C72FD9441EA7642A00F87329 /* NSObject+HLAlert.m in Sources */,
-				C72FD9411EA7633300F87329 /* UIView+HLCategory.m in Sources */,
-				C72FD91A1EA7436E00F87329 /* main.m in Sources */,
+				C784E9B41EA8585C00927853 /* NSObject+HLAlertCenter.m in Sources */,
+				C784E9AB1EA8583D00927853 /* ViewController.m in Sources */,
+				C784E9B51EA8585C00927853 /* UIView+HLCategory.m in Sources */,
+				C784E9A91EA8583D00927853 /* main.m in Sources */,
+				C784E9A41EA8583D00927853 /* AppDelegate.m in Sources */,
+				C784E9B31EA8585C00927853 /* HLAlertCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C72FD9211EA7436E00F87329 /* Main.storyboard */ = {
+		C784E99B1EA8583D00927853 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C72FD9221EA7436E00F87329 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C72FD9261EA7436E00F87329 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C72FD9271EA7436E00F87329 /* Base */,
+				C784E99C1EA8583D00927853 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C784E99D1EA8583D00927853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C784E99E1EA8583D00927853 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -307,9 +300,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4AW78593E8;
-				INFOPLIST_FILE = TKAlertCenterDemo/Info.plist;
+				INFOPLIST_FILE = HLAlertCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.TKAlertCenterDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.HLAlertCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fa40e5c-0f31-4a04-b61c-ea5b1f7b16bb";
 				PROVISIONING_PROFILE_SPECIFIER = develop_universal_profile;
@@ -321,9 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TKAlertCenterDemo/Info.plist;
+				INFOPLIST_FILE = HLAlertCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.TKAlertCenterDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.HLAlertCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};

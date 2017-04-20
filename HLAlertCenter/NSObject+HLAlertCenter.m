@@ -1,7 +1,7 @@
-#import "NSObject+HLAlert.h"
+#import "NSObject+HLAlertCenter.h"
 #import "HLAlertCenter.h"
 
-@implementation NSObject (HLAlert)
+@implementation NSObject (HLAlertCenter)
 
 
 - (void)postMessage:(NSString *)tip{

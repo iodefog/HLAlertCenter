@@ -5,7 +5,7 @@
 pod 初始化
 
 ```objc
-pod 'HLAlert'
+pod 'HLAlertCenter'
 pod install
 
 ```

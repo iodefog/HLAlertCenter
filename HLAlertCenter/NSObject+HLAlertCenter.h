@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface NSObject (HLAlert)
+@interface NSObject (HLAlertCenter)
 
 - (void)postMessage:(NSString *)tip;
 - (void)postMessage:(NSString *)tip image:(UIImage *)image;

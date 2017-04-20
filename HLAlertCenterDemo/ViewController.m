@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "HLAlertCenter.h"
-#import "NSObject+HLAlert.h"
+#import "NSObject+HLAlertCenter.h"
 
 @interface ViewController ()
 
@@ -22,7 +22,7 @@
 }
 
 - (IBAction)postMessage1:(id)sender {
-    [[HLAlertCenter defaultCenter] postAlertWithMessage:@"测试测试测试测试测试测试"];
+//    [[HLAlertCenter defaultCenter] postAlertWithMessage:@"测试测试测试测试测试测试"];
 //    [self postMessage:@"测试测试测试测试测试测试" origin_y:0];
     [self postMessage:@"测试测试测试测试测试测试"];
 

@@ -24,6 +24,15 @@ pod install
 
 使用方式:
 
+```
+typedef enum : NSUInteger {
+    HLAlertShowDefault,
+    HLAlertShowQueue,
+} HLAlertShowType;
+
+```
+
+
 ```objc
 
     [self postMessage:@"测试测试测试测试测试测试"];

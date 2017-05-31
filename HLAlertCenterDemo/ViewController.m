@@ -24,13 +24,13 @@
 - (IBAction)postMessage1:(id)sender {
 //    [[HLAlertCenter defaultCenter] postAlertWithMessage:@"测试测试测试测试测试测试"];
 //    [self postMessage:@"测试测试测试测试测试测试" origin_y:0];
-    [self postMessage:@"测试测试测试测试测试测试"];
+    [self postMessage:@"测试"];
 
 
 }
 - (IBAction)postMessage2:(id)sender {
 //    [self postMessage:@"测试测试测试测试测试测试" image:[UIImage imageNamed:@"SVLoadingView"] origin_y:0];
-    [self postMessage:@"测试测试测试测试测试测试" image:[UIImage imageNamed:@"SVLoadingView"]];
+    [self postMessage:@"测试" image:[UIImage imageNamed:@"SVLoadingView"]];
 
 }
 

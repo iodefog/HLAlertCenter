@@ -150,7 +150,7 @@
         if(!_active) [self showAlerts];
     }
     else {
-        [_alertView removeFromSuperview];
+//        [_alertView removeFromSuperview];
         [self.alerts removeAllObjects];
         
         [self.alerts addObject:[NSArray arrayWithObjects:message,image,nil]];

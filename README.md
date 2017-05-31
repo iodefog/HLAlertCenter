@@ -1,6 +1,5 @@
-----
-弱提示弹框
-
+--
+弱提示弹框,定时消失。分为只显示一个和队列显示
 
 pod 初始化
 
@@ -10,8 +9,29 @@ pod install
 
 ```
 
+代码如下
+```objc
+
+- (void)postMessage:(NSString *)tip;
+- (void)postMessage:(NSString *)tip image:(UIImage *)image;
+
+- (void)postMessage:(NSString *)message origin_y:(float)origin_y;
+- (void)postMessage:(NSString *)message image:(UIImage *)image origin_y:(float)origin_y;
+
+```
+
+
 
 使用方式:
+
+```
+typedef enum : NSUInteger {
+    HLAlertShowDefault,
+    HLAlertShowQueue,
+} HLAlertShowType;
+
+```
+
 
 ```objc
 

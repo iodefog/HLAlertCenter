@@ -85,11 +85,11 @@
     
     _alertView.center = CGPointMake([UIScreen mainScreen].bounds.size.width/2, [UIScreen mainScreen].bounds.size.height/2);
 	
-	UIInterfaceOrientation o = [UIApplication sharedApplication].statusBarOrientation;
+//	UIInterfaceOrientation o = [UIApplication sharedApplication].statusBarOrientation;
 	CGFloat degrees = 0;
-	if(o == UIInterfaceOrientationLandscapeLeft ) degrees = -90;
-	else if(o == UIInterfaceOrientationLandscapeRight ) degrees = 90;
-	else if(o == UIInterfaceOrientationPortraitUpsideDown) degrees = 180;
+//	if(o == UIInterfaceOrientationLandscapeLeft ) degrees = -90;
+//	else if(o == UIInterfaceOrientationLandscapeRight ) degrees = 90;
+//	else if(o == UIInterfaceOrientationPortraitUpsideDown) degrees = 180;
 	_alertView.transform = CGAffineTransformMakeRotation(degrees * M_PI / 180);
 	_alertView.transform = CGAffineTransformScale(_alertView.transform, 2, 2);
 	
@@ -123,11 +123,11 @@
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(animationStep3)];
 	
-	UIInterfaceOrientation o = [UIApplication sharedApplication].statusBarOrientation;
+//	UIInterfaceOrientation o = [UIApplication sharedApplication].statusBarOrientation;
 	CGFloat degrees = 0;
-	if(o == UIInterfaceOrientationLandscapeLeft ) degrees = -90;
-	else if(o == UIInterfaceOrientationLandscapeRight ) degrees = 90;
-	else if(o == UIInterfaceOrientationPortraitUpsideDown) degrees = 180;
+//	if(o == UIInterfaceOrientationLandscapeLeft ) degrees = -90;
+//	else if(o == UIInterfaceOrientationLandscapeRight ) degrees = 90;
+//	else if(o == UIInterfaceOrientationPortraitUpsideDown) degrees = 180;
 	_alertView.transform = CGAffineTransformMakeRotation(degrees * M_PI / 180);
 	_alertView.transform = CGAffineTransformScale(_alertView.transform, 0.5, 0.5);
 	
@@ -231,23 +231,38 @@ CGRect subtractRect(CGRect wf,CGRect kf){
 }
 - (void) orientationWillChange:(NSNotification *) notification {
 	
+    
 	NSDictionary *userInfo = [notification userInfo];
 	NSNumber *v = [userInfo objectForKey:UIApplicationStatusBarOrientationUserInfoKey];
 	UIInterfaceOrientation o = [v intValue];
 	
+    CGFloat height = MAX(CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds));
+    CGFloat width = MIN(CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds));
+
+    switch (o) {
+        case UIInterfaceOrientationLandscapeLeft:
+        case UIInterfaceOrientationLandscapeRight:
+            _alertView.center = CGPointMake(height/2, width/2);
+            break;
+        case UIInterfaceOrientationPortrait:
+        case UIInterfaceOrientationPortraitUpsideDown:
+            _alertView.center = CGPointMake(width/2, height/2);
+
+        default:
+            break;
+    }
 	
 	
-	
-	CGFloat degrees = 0;
-	if(o == UIInterfaceOrientationLandscapeLeft ) degrees = -90;
-	else if(o == UIInterfaceOrientationLandscapeRight ) degrees = 90;
-	else if(o == UIInterfaceOrientationPortraitUpsideDown) degrees = 180;
-	
-	[UIView beginAnimations:nil context:nil];
-	_alertView.transform = CGAffineTransformMakeRotation(degrees * M_PI / 180);
-	_alertView.frame = CGRectMake((int)_alertView.frame.origin.x, (int)_alertView.frame.origin.y, (int)_alertView.frame.size.width, (int)_alertView.frame.size.height);
-    
-	[UIView commitAnimations];
+//	CGFloat degrees = 0;
+//	if(o == UIInterfaceOrientationLandscapeLeft ) degrees = -90;
+//	else if(o == UIInterfaceOrientationLandscapeRight ) degrees = 90;
+//	else if(o == UIInterfaceOrientationPortraitUpsideDown) degrees = 180;
+//	
+//	[UIView beginAnimations:nil context:nil];
+//	_alertView.transform = CGAffineTransformMakeRotation(degrees * M_PI / 180);
+//	_alertView.frame = CGRectMake((int)_alertView.frame.origin.x, (int)_alertView.frame.origin.y, (int)_alertView.frame.size.width, (int)_alertView.frame.size.height);
+//    
+//	[UIView commitAnimations];
 	
 }
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HLAlertCenter"
-  s.version      = "1.1"
+  s.version      = "1.1.1"
   s.summary      = "弱提示弹框 HLAlertCenter"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   参考早期 TKAlertCenter弹框，封装自己的弱提示弹框。可调整位置。使用简单
                    DESC
 
-  s.homepage     = "https://github.com/lihongli528628/HLAlertCenter"
+  s.homepage     = "https://github.com/iodefog/HLAlertCenter"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lihongli528628/HLAlertCenter.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iodefog/HLAlertCenter.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
